@@ -1,6 +1,7 @@
 ﻿namespace Task3;
-internal interface IBird
+public interface IBird
 {
     string Gender { get; set; }
     void Walk();
+    void Eat();
 }

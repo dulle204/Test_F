@@ -1,5 +1,5 @@
 ﻿namespace Task3;
-internal abstract class Bird : IBird
+public abstract class Bird : IBird
 {
     public abstract string Gender { get; set; }
 

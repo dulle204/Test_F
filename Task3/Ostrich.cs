@@ -1,5 +1,5 @@
 ﻿namespace Task3;
-internal class Ostrich : Bird, IRunningBird
+public class Ostrich : Bird, IRunningBird
 {
     public override string Gender { get; set; }
 

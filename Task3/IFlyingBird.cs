@@ -1,5 +1,5 @@
 ﻿namespace Task3;
-internal interface IFlyingBird : IBird
+public interface IFlyingBird : IBird
 {
     void Fly();
 }

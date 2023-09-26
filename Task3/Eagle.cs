@@ -1,5 +1,5 @@
 ﻿namespace Task3;
-internal class Eagle : Bird, IFlyingBird
+public class Eagle : Bird, IFlyingBird
 {
     public override string Gender { get; set; }
 
@@ -10,6 +10,6 @@ internal class Eagle : Bird, IFlyingBird
 
     public override void Walk()
     {
-        Console.WriteLine("Fly");
+        Console.WriteLine("Walk");
     }
 }
